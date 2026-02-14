@@ -2,57 +2,34 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8">
-    <title>氢砜硫水的超理学档案馆</title>
+    <title>主页</title>
     <style>
       body {
         font-family: Arial;
-        background-color: #ccc;
-      }
-
-      .main-container {
-        display: flex;
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto 48px;
-        max-width: 1236px;
-        position: relative;
-        width: 85%;
+        background-color: #eee;
       }
 
       .page {
-        margin-top: 10px;
-        padding: 24px 36px;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
         background-color: #fff;
-        border-radius: 3px;
-        min-height: 480px;
-        position: relative;
+        text-align: center;
       }
 
-      .page-header {
-        margin-bottom: 20px;
-      }
-
-      .main-tltle {
-        font-size: 36px;
-        font-weight: 300;
-        letter-spacing: .25px;
-        line-height: 1.25;
-        overflow-wrap: break-word;
-        word-break: break-word;
+      .main-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 30px;
+        padding: 0;
       }
     </style>
   </head>
   <body>
-    <div class="main-container">
-      <div class="page">
-        <div class="page-header">
-          <h1 class="main-title">氢砜硫水的超理学档案馆</h1>
-        </div>
-        <div class="content">
-          <p>
-          本页面是@HydroSulfur（氢砜硫水）的网站，收录关于超理学的笔记、想法、草稿和存档等，托管于Github。
-          </p>
-        </div>
+    <div class="page">
+      <header><h1>主页</h1><h2>Pagina Prima</h2></header>
+      <div class="main-list">
+        <div><a href="https://antimony.fandom.com/zh/"><h3>锑星百科</h3></a></div>
       </div>
     </div>
   </body>
