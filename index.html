@@ -15,7 +15,7 @@
         margin-right: auto;
         background-color: #fff;
         text-align: center;
-        padding-top: 50px;
+        margin-top: 50px;
       }
 
       .main-list {
@@ -27,50 +27,36 @@
         margin-right: 30px;
       }
 
-      .link {
-        border: 1px solid;
+      .main-list>a {
+        border: 1px solid transparent;
         border-radius: 10px;
-        padding: auto;
+        padding: 6px;
         text-align: center;
-      }
-
-      .link>a {
         text-decoration: none;
         color: black;
-        vertical-align: middle;
       }
 
-      .link>a>span {
+      .a>span {
         color: black;
         margin: auto;
       }
+
+      #link-fandom-sb {background-color: #06b; color: white;}
+      #link-fandom-meta {background-color: #904; color: white;}
+      #link-fandom-sulfur {background-color: #eba; color: black;}
     </style>
   </head>
   <body>
     <div class="page">
       <header><h1>主页</h1><h2>Pagina Prima</h2></header>
       <div class="main-list">
-        <div class="link">
-          <a href="https://antimony.fandom.com/zh/"><span>锑星百科</span></a>
-        </div>
-        <div class="link">
-          <a href="https://community.fandom.com/zh/"><span>社区中心</span></a>
-        </div>
-        <div class="link">
-          <a href="https://hydro-sulfur.fandom.com/zh/"><span>氢砜馆（Fandom）</span></a>
-        </div>
-        <div class="link">
-          <a href="https://gxbk.fandom.com/zh/"><span>搞笑百科</span></a>
-        </div>
-        <div class="link">
-          <a href="https://yuyan.fandom.com/zh/"><span>人造语言维基</span></a>
-        </div>
-        <div class="link">
-          <a href="https://hydrosulfur.wikioasis.org/"><span>氢砜馆（WikiOasis）</span></a>
-        </div>
-        <div class="link">
-          <a href="https://superscience.wikioasis.org/"><span>超理共笔</span></a>
-        </div>
+        <a href="https://antimony.fandom.com/zh/" id="link-fandom-sb"><span>锑星百科</span></a>
+        <a href="https://community.fandom.com/zh/" id="link-fandom-meta"><span>社区中心</span></a>
+        <a href="https://hydro-sulfur.fandom.com/zh/" id="link-fandom-sulfur"><span>氢砜馆（Fandom）</span></a>
+        <a href="https://gxbk.fandom.com/zh/" id="link-fandom-gsc"><span>搞笑百科</span></a>
+        <a href="https://yuyan.fandom.com/zh/" id="link-fandom-conlang"><span>人造语言维基</span></a>
+        <a href="https://hydrosulfur.wikioasis.org/" id="link-wo-sulfur"><span>氢砜馆（WikiOasis）</span></a>
+        <a href="https://superscience.wikioasis.org/" id="link-wo-sb"><span>超理共笔</span></a>
       </div>
     </div>
   </body>
